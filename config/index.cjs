@@ -39,6 +39,15 @@ const USER_CONFIG = {
           type: '节日', name: '相识纪念日', year: '2021', date: '02-14',
         },
       ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2021-02-14' },
+        
+      ],
+    },
+  ],
+
  
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: '	bWUbv-4Ko1x6bszsLm7tCtTkFMhIAcYyXzKihmiCpRE',
